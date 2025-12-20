@@ -6,7 +6,7 @@ import shutil
 
 
 # List of directories and files to be copied or symlinked (if building locally)
-DIRECTORY_LIST = ["shotgun_api3"]
+DIRECTORY_LIST = ["src"]
 FILE_LIST = []
 
 
