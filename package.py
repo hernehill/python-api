@@ -1,6 +1,6 @@
 name = 'sg_api'
 
-version = '3.6.1.hh.1.0.1'
+version = '3.6.1.hh.1.0.0'
 
 authors = [
     'Autodesk',
