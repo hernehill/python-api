@@ -1,6 +1,6 @@
 name = 'sg_api'
 
-version = '3.6.1.hh.1.0.0'
+version = '3.6.1.hh.1.0.1'
 
 authors = [
     'Autodesk',
@@ -23,7 +23,7 @@ variants = [
 
 def commands():
     env.REZ_SG_API_ROOT = '{root}'
-    env.PYTHONPATH.append('{root}/src')
+    env.PYTHONPATH.append('{root}/src/shotgun_api3')
 
 build_command = 'rez python {root}/rez_build.py'
 
