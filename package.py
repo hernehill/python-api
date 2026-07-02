@@ -24,6 +24,7 @@ variants = [
 def commands():
     env.REZ_SG_API_ROOT = '{root}'
     env.PYTHONPATH.append('{root}/src/shotgun_api3')
+    env.PYTHONPATH.append('{root}/src')
 
 build_command = 'rez python {root}/rez_build.py'
 
