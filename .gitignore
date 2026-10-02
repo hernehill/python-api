@@ -33,3 +33,8 @@ build
 dist
 shotgun_api3.egg-info
 /%1
+
+# HH
+_rez_build
+.vscode
+.idea
